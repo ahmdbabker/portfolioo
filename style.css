@@ -1,0 +1,530 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS" , "Lucida Sans Unicode" , sans-serif;
+    box-sizing: border-box;
+}
+.top-nav{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(portfolio1.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px 0;
+    position: relative;
+}
+.taking-tow-navs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.taking-tow-navs .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taking-tow-navs .logo .img{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taking-tow-navs .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: white;  
+}
+.taking-tow-navs .name{
+    margin-left: 10px;
+}
+.taking-tow-navs .logo small{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.taking-tow-navs .logo img{
+    height: 110px;
+    width: 110px;
+}
+.taking-tow-navs .navs ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.taking-tow-navs .navs ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.taking-tow-navs i{
+    display: none;
+}
+.taking-tow-navs .navs{
+    width: 21%;
+}
+.top-nav .layer-text{
+    padding: 0 14%;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.top-nav .layer-text h3{
+    color: white;
+}
+.top-nav .layer-text h1{
+    color: white;
+    font-size: 40px;
+}
+.top-nav .layer-text p{
+    color: white;
+    margin-top:30px;
+    font-size: 17px;
+}
+.top-nav .layer-text a{
+    color: white;
+    background-color: #fc0443;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin:25px 8px ;
+    font-size: 18px;
+    display: inline-block;
+}
+.top-nav .layer-text a i{
+    padding-left: 10px;
+}
+.top-nav .icons{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    right: 45%;
+    color: white;
+}
+.top-nav .icons span i{
+    color: rgb(172, 171, 171);
+    padding: 0 7px;
+    font-size: 25px;
+}
+.about{
+    margin-top: 20px;
+}
+.about .about-title h1{
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    margin:  0 auto;
+}
+.about .container{
+    padding: 0 4%;
+}
+.about .about-title h1::before{
+    content: "";
+    position: absolute;
+    background-color: #fc0443;
+    height: 5px;
+    width: 50px;
+    left: 45px;
+    bottom: -10px;
+}
+.about .two-about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.about .two-about .item h2{
+    color: rgb(88, 88, 88);
+}
+.about .two-about .item{
+    width: 45%;
+}
+.about .info-about p{
+    margin: 40px auto;
+    width: 70%;
+    color: #666;
+    line-height: 25px;
+    text-align: center;
+}
+.logo .taking-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 7px 0;
+    /* background-color: lightgray; */
+}
+.logo .taking-logos .item-logo{
+    width: 10%;
+}
+.logo .taking-logos .iomg{
+    width: 100%;
+    height: 120px;
+}
+.logo .taking-logos .iomg img{
+    width: 100%;
+    opacity: 0.4;
+    height: 100%;
+}
+.projects{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(bac2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.projects .pro-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+.projects .pro-title small{
+    margin: 30px auto;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+.projects .pro-title h1{
+    margin-top: 20px;
+    position: relative;
+    color: white;
+    top: 20px;
+    border: 2px solid white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 10px ;
+    text-align: center;
+}
+.projects .container{
+    padding: 0 4%;
+}
+.projects .pro-title h1::before{
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: -5px;
+    background-color: #fc0443;
+}
+.projects .all-projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 0;
+    flex-wrap: wrap;
+}
+.projects .project-item{
+    width: 24%;
+}
+.projects .iamge{
+    width: 100%;
+    height: 240px;
+}
+.projects .iamge img{
+    width: 100%;
+    height: 100%;
+    filter: contrast(40%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.projects .detail{
+    background:transparent;
+    border: 1px solid #606060;
+    color: white;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px;
+    font-size: 17px;
+}
+.projects .detail p{
+    font-size: 15px;
+}
+.projects .detail a{
+    /* background-color: #fc0443; */
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    /* border: none; */
+    padding:5px 5px ;
+    font-size: 17px;
+    display: inline-block;
+    margin: 7px 7px;
+    text-decoration: none;
+}
+.projects h2{
+    text-align: center;
+    width: 50%;
+    font-size: 22px;
+    margin:  15px auto;
+    color: white;
+}
+.footer .taking-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    /* background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(bac2.jpg); */
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer .taking-footer .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .taking-footer .logo .img{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .item-footer{
+    width: 30%;
+    text-align: center;
+}
+.footer .taking-footer .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #666;  
+}
+.footer .taking-footer .name{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #666;
+}
+.footer .taking-footer .logo small{
+    color: #606060;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footer .taking-footer .logo img{
+    height: 110px;
+    width: 110px;
+}
+.footer .icons{
+    display: flex;
+    color: gray;
+    font-size: 17px;
+    flex-direction: column;
+}
+.footer .icons span i{
+    padding-right: 5px;
+    color: rgb(145, 145, 145);
+}
+.footer .io span{
+    margin-top: 10px;
+    color: #666;
+}
+.footer .io span i{
+    color: #666;
+    font-size: 23px;
+    padding-left: 7px;
+}
+.item-footer h3{
+    width: 50%;
+    margin:  5px auto;
+    text-align: center;
+    color:#666;
+}
+.item-footer .input{
+    position: relative;
+}
+.item-footer input{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid rgb(150, 149, 149);
+}
+.item-footer .icon{
+    position: absolute;
+    top: 5px ;
+    right: 5px ;
+    /* background-color: black; */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    border-left: 1px solid white;
+}
+.item-footer h5{
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+.item-footer .io{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px 40px;
+    margin-top: 15px;
+    color: lightgray;
+}
+
+@media screen and (max-width:668px){
+    .taking-tow-navs .logo{
+        width: 100%;
+    }
+    .top-nav .container{
+        padding: 0 1%;
+    }
+    .taking-tow-navs .logo .img{
+        height: 70px;
+        width: 70px;
+    }
+    .taking-tow-navs .fas{
+        display: none;
+    }
+    .taking-tow-navs .navs ul{
+        display: none;
+    }
+    .top-nav .layer-text{
+        width: 100%;
+        padding: 0 1%;
+        font-size: 15px;
+        position: absolute;
+        top: 54%;
+    }
+    .top-nav .layer-text h3{
+        font-size: 19px;
+    }
+    .top-nav .layer-text h1{
+        font-size: 26px;
+    }
+    .top-nav .layer-text p{
+        font-size: 16px;
+        margin-top:10px;
+    }
+    .taking-tow-navs .logo p {
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 25px;
+        color: white;
+    }
+    .taking-tow-navs i {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 30px;
+        font-size: 24px;
+        right: 15px;
+    }
+    .top-nav .layer-text a {
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    .top-nav .icons {
+        right: 28%;
+        /* font-size: 13px; */
+    }
+    .top-nav .icons span i {
+        color: rgb(172, 171, 171);
+        padding: 0 7px;
+        font-size: 20px;
+    }
+    .logo .taking-logos{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 7px 0;
+        /* background-color: lightgray; */
+    }
+    .logo .taking-logos .item-logo{
+        width: 20%;
+    }
+    .logo .taking-logos .iomg{
+        width: 100%;
+        height: 80px;
+    }
+    .logo .taking-logos .iomg img{
+        width: 100%;
+        opacity: 0.4;
+        height: 100%;
+    }
+    .about .info-about p {
+        font-size: 17px;
+        width:100%
+    }
+    .projects .pro-title {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .projects .project-item {
+        width: 100%;
+    }
+    .projects .detail p {
+        font-size: 14px;
+    }
+    .projects{
+        height: auto;
+    }
+    .projects h2 {
+        text-align: center;
+        width: 50%;
+        font-size: 16px;
+        margin: 15px auto;
+        color: white;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer .taking-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer .taking-footer .name {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .footer .taking-footer .logo p {
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 30px;
+        color: #666;
+    }
+    .footer .icons span {
+        margin: 10px 0;
+    }
+    .item-footer .input {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .footer .item-footer {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
